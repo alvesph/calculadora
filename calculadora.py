@@ -1,6 +1,4 @@
-for i in range(0, 10):
-    print(i)
-
 lista = ["Paulo", "ian"]
-
-print(lista[0])
+tamanho = len(lista)
+for i in range(0, tamanho):
+    print(i)
